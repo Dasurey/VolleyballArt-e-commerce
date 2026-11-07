@@ -119,7 +119,7 @@ export default function ProductFormContainer() {
                 type="text"
                 name="name"
                 className="ProductForm__input"
-                placeholder="Alimento premium gato adulto 3kg"
+                placeholder="Camiseta de Juego Oficial"
                 value={values.name}
                 onChange={handleChange}
                 required
@@ -237,7 +237,7 @@ export default function ProductFormContainer() {
                 type="url"
                 name="imageUrl"
                 className="ProductForm__input"
-                placeholder="/images/cat-food-premium-adulto-3kg.webp o URL completa"
+                placeholder="/images/nombre-imagen.webp o URL completa"
                 value={values.imageUrl}
                 onChange={handleChange}
                 disabled={!!file}
